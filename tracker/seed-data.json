@@ -1,0 +1,423 @@
+{
+  "exportedAt": "2026-10-01T19:12:03.657Z",
+  "totalQuestions": 79,
+  "topics": {
+    "Array and Hashing": [
+      {
+        "name": "Count Inversions",
+        "link": "https://leetcode.com/problems/count-the-number-of-inversions/description/",
+        "order": 0
+      },
+      {
+        "name": "Find Missing And Repeating Number",
+        "link": "https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1",
+        "order": 1
+      },
+      {
+        "name": "Kadane Algorithm",
+        "link": "https://leetcode.com/problems/maximum-subarray/description/",
+        "order": 2
+      },
+      {
+        "name": "Majority Element",
+        "link": "https://leetcode.com/problems/majority-element/description/",
+        "order": 3
+      },
+      {
+        "name": "Maximum Product Subarray",
+        "link": "https://leetcode.com/problems/maximum-product-subarray/description/",
+        "order": 4
+      },
+      {
+        "name": "Next Permutation",
+        "link": "https://leetcode.com/problems/next-permutation/",
+        "order": 5
+      },
+      {
+        "name": "Sub Array With Xor K",
+        "link": "http://geeksforgeeks.org/problems/count-subarray-with-given-xor/1",
+        "order": 6
+      },
+      {
+        "name": "Three Sum",
+        "link": "https://leetcode.com/problems/3sum/description/",
+        "order": 7
+      }
+    ],
+    "Binary Search": [
+      {
+        "name": "Aggressive Cows",
+        "link": "https://www.geeksforgeeks.org/problems/aggressive-cows/1",
+        "order": 0
+      },
+      {
+        "name": "Book Allocation Problem",
+        "link": "https://leetcode.com/problems/split-array-largest-sum/description/",
+        "order": 1
+      },
+      {
+        "name": "Find Peak Element In Array",
+        "link": "https://leetcode.com/problems/find-peak-element/description/",
+        "order": 2
+      },
+      {
+        "name": "Gas Station",
+        "link": "https://www.geeksforgeeks.org/problems/minimize-max-distance-to-gas-station/1",
+        "order": 3
+      },
+      {
+        "name": "Koko Eating Bananas",
+        "link": "https://leetcode.com/problems/koko-eating-bananas/description/",
+        "order": 4
+      },
+      {
+        "name": "Median Of Two Sorted Arrays",
+        "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/",
+        "order": 5
+      },
+      {
+        "name": "Minimum In Rotated Sorted Array",
+        "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/",
+        "order": 6
+      },
+      {
+        "name": "Search In Rotated Sorted Array Two",
+        "link": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/",
+        "order": 7
+      }
+    ],
+    "Dynamic Programming": [
+      {
+        "name": "Burst Balloons",
+        "link": "https://leetcode.com/problems/burst-balloons/",
+        "order": 0
+      },
+      {
+        "name": "Buy And Stock Sell",
+        "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+        "order": 1
+      },
+      {
+        "name": "Longest Common Subsequence",
+        "link": "https://leetcode.com/problems/longest-common-subsequence/",
+        "order": 2
+      },
+      {
+        "name": "Longest Increasing Subsequence",
+        "link": "https://leetcode.com/problems/longest-increasing-subsequence/",
+        "order": 3
+      },
+      {
+        "name": "Longest Palindromic Subsequence",
+        "link": "https://leetcode.com/problems/longest-palindromic-substring/",
+        "order": 4
+      },
+      {
+        "name": "Maximum Sum Of Non Adjacent Elements",
+        "link": "https://www.geeksforgeeks.org/problems/stickler-theif-1587115621/1",
+        "order": 5
+      },
+      {
+        "name": "Minimum Path Sum In Grid",
+        "link": "https://leetcode.com/problems/minimum-path-sum/",
+        "order": 6
+      },
+      {
+        "name": "Ninjas Training",
+        "link": "https://www.geeksforgeeks.org/problems/geeks-training/1",
+        "order": 7
+      },
+      {
+        "name": "Rod Cutting Problem",
+        "link": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/",
+        "order": 8
+      },
+      {
+        "name": "Shortest Common Supersequence",
+        "link": "https://leetcode.com/problems/shortest-common-supersequence/",
+        "order": 9
+      },
+      {
+        "name": "Subset Sum Equal To Target",
+        "link": "https://leetcode.com/problems/target-sum/",
+        "order": 10
+      },
+      {
+        "name": "Zero One Knapsack",
+        "link": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
+        "order": 11
+      }
+    ],
+    "Graphs": [
+      {
+        "name": "Accounts Merge",
+        "link": "https://leetcode.com/problems/accounts-merge/",
+        "order": 0
+      },
+      {
+        "name": "Alien Dictionary",
+        "link": "https://neetcode.io/problems/foreign-dictionary/question?list=neetcode150",
+        "order": 1
+      },
+      {
+        "name": "Bellman Ford Algorithm",
+        "link": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
+        "order": 2
+      },
+      {
+        "name": "Bridges In Graph",
+        "link": "https://leetcode.com/problems/critical-connections-in-a-network/",
+        "order": 3
+      },
+      {
+        "name": "Cheapest Flights Within K Stops",
+        "link": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+        "order": 4
+      },
+      {
+        "name": "Course Schedule Two",
+        "link": "https://leetcode.com/problems/course-schedule-ii/",
+        "order": 5
+      },
+      {
+        "name": "Djisktras Algorithm",
+        "link": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+        "order": 6
+      },
+      {
+        "name": "Floyd Warshal Algorithm",
+        "link": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+        "order": 7
+      },
+      {
+        "name": "Kruskals Algorithm",
+        "link": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree-kruskals-algorithm/1",
+        "order": 8
+      },
+      {
+        "name": "Number Of Distinct Islands",
+        "link": "https://www.geeksforgeeks.org/problems/number-of-distinct-islands/1",
+        "order": 9
+      },
+      {
+        "name": "Rotten Oranges",
+        "link": "https://leetcode.com/problems/rotting-oranges/description/",
+        "order": 10
+      },
+      {
+        "name": "Word Ladder",
+        "link": "https://leetcode.com/problems/word-ladder/",
+        "order": 11
+      }
+    ],
+    "Heaps": [
+      {
+        "name": "K Largest Elements",
+        "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/description/",
+        "order": 0
+      },
+      {
+        "name": "Min Heap Implementation",
+        "link": "https://www.geeksforgeeks.org/problems/min-heap-implementation/1",
+        "order": 1
+      },
+      {
+        "name": "Task Scheduler",
+        "link": "https://leetcode.com/problems/task-scheduler/",
+        "order": 2
+      }
+    ],
+    "Linked List": [
+      {
+        "name": "Detect Cycle",
+        "link": "https://leetcode.com/problems/linked-list-cycle/",
+        "order": 0
+      },
+      {
+        "name": "Intersection Point Of Two List",
+        "link": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/",
+        "order": 1
+      },
+      {
+        "name": "Middle Of List",
+        "link": "https://leetcode.com/problems/middle-of-the-linked-list/",
+        "order": 2
+      },
+      {
+        "name": "Remove Nnode From End",
+        "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+        "order": 3
+      },
+      {
+        "name": "Segregate Even Odd",
+        "link": "https://leetcode.com/problems/odd-even-linked-list/",
+        "order": 4
+      },
+      {
+        "name": "Sort Linked List",
+        "link": "https://www.codingninjas.com/studio/problems/sort-linked-list_625193?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+        "order": 5
+      }
+    ],
+    "Recursion and Backtracking": [
+      {
+        "name": "Combination Sum",
+        "link": "https://leetcode.com/problems/combination-sum/",
+        "order": 0
+      },
+      {
+        "name": "M Coloring",
+        "link": "https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1",
+        "order": 1
+      },
+      {
+        "name": "N Queens",
+        "link": "https://leetcode.com/problems/n-queens/description/",
+        "order": 2
+      },
+      {
+        "name": "Print Subsequences",
+        "link": "https://www.geeksforgeeks.org/problems/power-set4302/1",
+        "order": 3
+      },
+      {
+        "name": "Sudoku Solver",
+        "link": "https://leetcode.com/problems/sudoku-solver/description/",
+        "order": 4
+      },
+      {
+        "name": "Word Search",
+        "link": "https://leetcode.com/problems/word-search/description/",
+        "order": 5
+      }
+    ],
+    "Stacks and Queues": [
+      {
+        "name": "Asteroid Collision",
+        "link": "https://leetcode.com/problems/asteroid-collision/",
+        "order": 0
+      },
+      {
+        "name": "Largest Rectangle Histogram",
+        "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+        "order": 1
+      },
+      {
+        "name": "Lru Cache",
+        "link": "https://leetcode.com/problems/lru-cache/",
+        "order": 2
+      },
+      {
+        "name": "Next Greater Element",
+        "link": "https://leetcode.com/problems/next-greater-element-i/",
+        "order": 3
+      },
+      {
+        "name": "Sliding Window Maximum",
+        "link": "https://leetcode.com/problems/sliding-window-maximum/",
+        "order": 4
+      },
+      {
+        "name": "Trap Rain Water",
+        "link": "https://leetcode.com/problems/trapping-rain-water/",
+        "order": 5
+      }
+    ],
+    "Strings": [
+      {
+        "name": "Minimum Cost To Make String Valid",
+        "link": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/",
+        "order": 0
+      },
+      {
+        "name": "Pattern Searching Using Z Algorithm",
+        "link": "https://www.geeksforgeeks.org/problems/search-pattern0205/1",
+        "order": 1
+      },
+      {
+        "name": "Rabin Karp",
+        "link": "https://www.geeksforgeeks.org/problems/search-pattern0205/1",
+        "order": 2
+      },
+      {
+        "name": "Search Pattern Kmp Algorithm",
+        "link": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/",
+        "order": 3
+      }
+    ],
+    "Trees (BT + BST)": [
+      {
+        "name": "Bottom View Of Tree",
+        "link": "https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1",
+        "order": 0
+      },
+      {
+        "name": "Construct Tree From Inorder And Preorder",
+        "link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/",
+        "order": 1
+      },
+      {
+        "name": "Delete Node In Bst",
+        "link": "https://leetcode.com/problems/delete-node-in-a-bst/",
+        "order": 2
+      },
+      {
+        "name": "Diameter Of Tree",
+        "link": "https://leetcode.com/problems/diameter-of-binary-tree/",
+        "order": 3
+      },
+      {
+        "name": "Lowest Common Ancestor",
+        "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+        "order": 4
+      },
+      {
+        "name": "Lowest Common Ancestor In Bst",
+        "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+        "order": 5
+      },
+      {
+        "name": "Maximum Path Sum",
+        "link": "https://www.codingninjas.com/studio/problems/maximum-sum-path-of-a-binary-tree._1214968?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+        "order": 6
+      },
+      {
+        "name": "Minimum Time To Burn Tree",
+        "link": "https://www.geeksforgeeks.org/problems/burning-tree/1",
+        "order": 7
+      },
+      {
+        "name": "Pair Sum In Bst",
+        "link": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/",
+        "order": 8
+      },
+      {
+        "name": "Pre Order Of Tree",
+        "link": "https://leetcode.com/problems/binary-tree-preorder-traversal/description/",
+        "order": 9
+      },
+      {
+        "name": "Size Of Largest Bst",
+        "link": "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/",
+        "order": 10
+      }
+    ],
+    "Tries": [
+      {
+        "name": "Implement Trie",
+        "link": "https://leetcode.com/problems/implement-trie-prefix-tree/description/",
+        "order": 0
+      },
+      {
+        "name": "Maximum Xor With An Element From Array",
+        "link": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/description/",
+        "order": 1
+      },
+      {
+        "name": "Number Of Distinct Substrings In String",
+        "link": "https://www.geeksforgeeks.org/problems/count-of-distinct-substrings/1",
+        "order": 2
+      }
+    ]
+  }
+}
