@@ -2,8 +2,6 @@
 
 Striver changed the Striver79 sheet (the most famous and last minute revision sheet), so here it is Track your progress, star problems for revision, and write Markdown notes — all stored in your own MongoDB database.
 
-![Striver 79 DSA Tracker](./tracker/public/preview.png)
-
 ---
 
 ## Features
