@@ -233,7 +233,7 @@ function renderRow(q) {
       </td>
       <td class="col-star">
         <button class="star-btn${q.isStarred ? ' starred' : ''}" id="star-${q._id}"
-          onclick="toggleStar('${q._id}', ${!q.isStarred})"
+          onclick="toggleStar('${q._id}', !this.classList.contains('starred'))"
           title="${q.isStarred ? 'Remove star' : 'Star for revisit'}"
           aria-label="${q.isStarred ? 'Unstar' : 'Star'} ${escHtml(q.name)}">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="${q.isStarred ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
