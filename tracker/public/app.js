@@ -144,7 +144,23 @@ function updateHeader() {
     const pct = total > 0 ? Math.round((done / total) * 100) : 0;
     fillEl.style.width = pct + '%';
   }
+
+  // Difficulty breakdown
+  const easyTotal  = allQuestions.filter(q => q.difficulty === 'Easy').length;
+  const medTotal   = allQuestions.filter(q => q.difficulty === 'Medium').length;
+  const hardTotal  = allQuestions.filter(q => q.difficulty === 'Hard').length;
+  const easyDone   = allQuestions.filter(q => q.difficulty === 'Easy'   && q.isDone).length;
+  const medDone    = allQuestions.filter(q => q.difficulty === 'Medium' && q.isDone).length;
+  const hardDone   = allQuestions.filter(q => q.difficulty === 'Hard'   && q.isDone).length;
+
+  const easyEl = document.getElementById('stat-easy');
+  const medEl  = document.getElementById('stat-medium');
+  const hardEl = document.getElementById('stat-hard');
+  if (easyEl) easyEl.textContent = `${easyDone}/${easyTotal}`;
+  if (medEl)  medEl.textContent  = `${medDone}/${medTotal}`;
+  if (hardEl) hardEl.textContent = `${hardDone}/${hardTotal}`;
 }
+
 
 function renderTopics() {
   const container = document.getElementById('topics-container');
@@ -195,6 +211,7 @@ function renderTopics() {
               <th class="col-center col-done">Done</th>
               <th class="col-center col-star">Star</th>
               <th class="col-name">Question</th>
+              <th class="col-center col-difficulty">Difficulty</th>
               <th class="col-center col-link">Link</th>
               <th class="col-center col-notes">Notes</th>
             </tr>
@@ -244,6 +261,9 @@ function renderRow(q) {
       </td>
       <td class="col-name">
         <span class="q-name" id="name-${q._id}">${escHtml(q.name)}</span>
+      </td>
+      <td class="col-difficulty">
+        <span class="diff-badge diff-${(q.difficulty || 'Medium').toLowerCase()}">${q.difficulty || 'Medium'}</span>
       </td>
       <td class="col-link">
         <div class="link-cell-wrap">

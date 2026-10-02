@@ -9,6 +9,7 @@ const questionSchema = new mongoose.Schema(
     isStarred: { type: Boolean, default: false },
     notes: { type: String, default: '' },
     order: { type: Number, default: 0 },
+    difficulty: { type: String, enum: ['Easy', 'Medium', 'Hard'], default: 'Medium' },
   },
   { timestamps: true }
 );

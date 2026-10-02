@@ -20,6 +20,17 @@
   --blue:        #60a5fa;
   --blue-dim:    rgba(96, 165, 250, 0.12);
 
+  /* Difficulty colours */
+  --diff-easy:        #22c55e;
+  --diff-easy-dim:    rgba(34, 197, 94, 0.12);
+  --diff-easy-border: rgba(34, 197, 94, 0.30);
+  --diff-medium:      #f59e0b;
+  --diff-medium-dim:  rgba(245, 158, 11, 0.12);
+  --diff-medium-border: rgba(245, 158, 11, 0.30);
+  --diff-hard:        #ef4444;
+  --diff-hard-dim:    rgba(239, 68, 68, 0.12);
+  --diff-hard-border: rgba(239, 68, 68, 0.30);
+
   --text:        #f4f4f5;
   --text-2:      #a1a1aa;
   --text-3:      #71717a;
@@ -67,11 +78,12 @@ body {
 .header-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px;
-  height: 64px;
+  padding: 10px 24px;
+  min-height: 64px;
   display: flex;
   align-items: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 12px 24px;
 }
 
 /* Logo */
@@ -121,7 +133,7 @@ body {
 }
 
 /* Stat Pills */
-.stat-pills { display: flex; gap: 8px; }
+.stat-pills { display: flex; gap: 8px; flex-wrap: wrap; }
 .pill {
   display: flex;
   align-items: center;
@@ -136,6 +148,20 @@ body {
 .pill-done { background: var(--green-dim); border-color: var(--green-border); color: var(--accent-green); }
 .pill-star { background: var(--gold-dim); border-color: rgba(245, 158, 11, 0.3); color: var(--gold); }
 .pill-note { background: var(--blue-dim); border-color: rgba(96, 165, 250, 0.3); color: var(--blue); }
+.pill-easy   { background: var(--diff-easy-dim);   border-color: var(--diff-easy-border);   color: var(--diff-easy); }
+.pill-medium { background: var(--diff-medium-dim); border-color: var(--diff-medium-border); color: var(--diff-medium); }
+.pill-hard   { background: var(--diff-hard-dim);   border-color: var(--diff-hard-border);   color: var(--diff-hard); }
+
+/* Difficulty dot indicator in pills */
+.diff-dot {
+  display: inline-block;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.diff-dot-easy   { background: var(--diff-easy); }
+.diff-dot-medium { background: var(--diff-medium); }
+.diff-dot-hard   { background: var(--diff-hard); }
 
 /* ── FILTER BAR ─────────────────────────────────────────────── */
 .filter-bar {
@@ -395,11 +421,29 @@ body {
 }
 
 /* Column widths */
-.col-done  { width: 48px; text-align: center; }
-.col-star  { width: 44px; text-align: center; }
-.col-name  { }
-.col-link  { width: 100px; text-align: center; }
-.col-notes { width: 120px; text-align: center; }
+.col-done       { width: 48px;  text-align: center; }
+.col-star       { width: 44px;  text-align: center; }
+.col-name       { }
+.col-difficulty { width: 100px; text-align: center; }
+.col-link       { width: 100px; text-align: center; }
+.col-notes      { width: 120px; text-align: center; }
+
+/* Difficulty badges in table rows */
+.diff-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 9px;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border: 1px solid;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+.diff-easy   { background: var(--diff-easy-dim);   border-color: var(--diff-easy-border);   color: var(--diff-easy); }
+.diff-medium { background: var(--diff-medium-dim); border-color: var(--diff-medium-border); color: var(--diff-medium); }
+.diff-hard   { background: var(--diff-hard-dim);   border-color: var(--diff-hard-border);   color: var(--diff-hard); }
 
 /* ── CUSTOM CHECKBOX ────────────────────────────────────────── */
 .cb-wrap {
