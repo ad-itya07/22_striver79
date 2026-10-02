@@ -163,8 +163,9 @@ function renderTopics() {
     if (filtered.length === 0) continue;
     anyVisible = true;
 
-    const doneCnt = questions.filter(q => q.isDone).length;
-    const totalCnt = questions.length;
+    // Progress bar reflects the *filtered* view so it stays meaningful
+    const doneCnt  = filtered.filter(q => q.isDone).length;
+    const totalCnt = filtered.length;
     const pct = totalCnt > 0 ? Math.round((doneCnt / totalCnt) * 100) : 0;
     const collapsed = state.collapsedTopics.has(topic);
 
@@ -487,16 +488,20 @@ async function saveNote(id, notes) {
 function updateTopicProgress(id) {
   const q = findQuestion(id);
   if (!q) return;
-  const topicQuestions = state.grouped[q.topic] || [];
-  const done = topicQuestions.filter(x => x.isDone).length;
+
+  // Use same filter/search as the current view so the bar stays in sync
+  const topicQuestions = (state.grouped[q.topic] || []).filter(
+    x => matchesFilter(x) && matchesSearch(x)
+  );
+  const done  = topicQuestions.filter(x => x.isDone).length;
   const total = topicQuestions.length;
-  const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+  const pct   = total > 0 ? Math.round((done / total) * 100) : 0;
 
   const card = document.querySelector(`.topic-card[data-topic="${q.topic}"]`);
   if (!card) return;
-  const fill = card.querySelector('.topic-progress-fill');
+  const fill  = card.querySelector('.topic-progress-fill');
   const label = card.querySelector('.topic-progress-label');
-  if (fill) fill.style.width = pct + '%';
+  if (fill)  fill.style.width = pct + '%';
   if (label) label.textContent = `${done}/${total}`;
 }
 
